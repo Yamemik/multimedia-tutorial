@@ -1,0 +1,6 @@
+works|work|working
+live|lives|living
+go|goes|going|
+miss|misses| missing
+doesn’t have|have|having
+rains|rain|raining 

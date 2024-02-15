@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="CurrentPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ExPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="TimePage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="TitlePage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="VideoPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="CurrentPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ExPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="TimePage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="TitlePage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="VideoPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

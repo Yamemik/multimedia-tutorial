@@ -1,0 +1,83 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Alphabet.txt" />
+    <None Remove="alph\1.jpg" />
+    <None Remove="alph\2.jpg" />
+    <None Remove="alph\3.jpg" />
+    <None Remove="alph\4.jpg" />
+    <None Remove="alph\e.jpg" />
+    <None Remove="alph\f.jpg" />
+    <None Remove="alph\g.jpg" />
+    <None Remove="alph\h.jpg" />
+    <None Remove="alph\i.jpg" />
+    <None Remove="alph\j.jpg" />
+    <None Remove="alph\k.jpg" />
+    <None Remove="alph\l.jpg" />
+    <None Remove="alph\m.jpg" />
+    <None Remove="alph\n.jpg" />
+    <None Remove="alph\o.jpg" />
+    <None Remove="alph\p.jpg" />
+    <None Remove="alph\q.jpg" />
+    <None Remove="alph\r.jpg" />
+    <None Remove="alph\s.jpg" />
+    <None Remove="alph\t.jpg" />
+    <None Remove="alph\u.jpg" />
+    <None Remove="alph\v.jpg" />
+    <None Remove="alph\w.jpg" />
+    <None Remove="alph\x.jpg" />
+    <None Remove="alph\y.jpg" />
+    <None Remove="alph\z.jpg" />
+    <None Remove="ira.jpg" />
+    <None Remove="Times.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Alphabet.txt" />
+    <Resource Include="alph\1.jpg" />
+    <Resource Include="alph\2.jpg" />
+    <Resource Include="alph\3.jpg" />
+    <Resource Include="alph\4.jpg" />
+    <Resource Include="alph\e.jpg" />
+    <Resource Include="alph\f.jpg" />
+    <Resource Include="alph\g.jpg" />
+    <Resource Include="alph\h.jpg" />
+    <Resource Include="alph\i.jpg" />
+    <Resource Include="alph\j.jpg" />
+    <Resource Include="alph\k.jpg" />
+    <Resource Include="alph\l.jpg" />
+    <Resource Include="alph\m.jpg" />
+    <Resource Include="alph\n.jpg" />
+    <Resource Include="alph\o.jpg" />
+    <Resource Include="alph\p.jpg" />
+    <Resource Include="alph\q.jpg" />
+    <Resource Include="alph\r.jpg" />
+    <Resource Include="alph\s.jpg" />
+    <Resource Include="alph\t.jpg" />
+    <Resource Include="alph\u.jpg" />
+    <Resource Include="alph\v.jpg" />
+    <Resource Include="alph\w.jpg" />
+    <Resource Include="alph\x.jpg" />
+    <Resource Include="alph\y.jpg" />
+    <Resource Include="alph\z.jpg" />
+    <Resource Include="ira.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Times.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="1.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

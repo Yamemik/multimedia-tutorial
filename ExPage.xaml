@@ -1,0 +1,86 @@
+﻿<Page x:Class="MultimediaTutorial.ExPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:MultimediaTutorial"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="ExPage">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="30"/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="30"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition Height="30"/>
+        </Grid.RowDefinitions>
+
+        <Button Visibility="Hidden" Grid.Column="2" Grid.RowSpan="3" Content=">" Click="BtnNext_Click" FontSize="33" Background="LightCoral"/>
+        <Button Grid.RowSpan="8" Content="&lt;" Click="BtnBack_Click" FontSize="33" Background="LightCoral"/>
+
+        <TextBlock Grid.ColumnSpan="5" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="27" TextWrapping="Wrap">
+            Упражнение на настоящее простое время/ Present Simple   
+        </TextBlock>
+
+        <StackPanel Orientation="Horizontal" Grid.Row="7" Grid.Column="0" Grid.ColumnSpan="5" HorizontalAlignment="Center" >
+            <Button Margin="5" Width="100" Background="Gray" Click="BtnClose_Click">Завершить</Button>
+            <Button Margin="5" Width="100" Background="Gray" Click="BtnФты_Click">Ответы</Button>
+        </StackPanel>
+
+        <TextBlock Grid.Row="1" Grid.Column="1" FontSize="22" HorizontalAlignment="Right" VerticalAlignment="Center">
+            He (work)
+        </TextBlock>
+        <TextBlock Grid.Row="1" Grid.Column="3" FontSize="22" HorizontalAlignment="Left" VerticalAlignment="Center">
+            in an office.
+        </TextBlock>
+        <TextBlock Grid.Row="2" Grid.Column="1" FontSize="22" HorizontalAlignment="Right" VerticalAlignment="Center">
+            They (live)
+        </TextBlock>
+        <TextBlock Grid.Row="2" Grid.Column="3" FontSize="22" HorizontalAlignment="Left" VerticalAlignment="Center">
+            in a big city.
+        </TextBlock>
+        <TextBlock Grid.Row="3" Grid.Column="1" FontSize="22" HorizontalAlignment="Right" VerticalAlignment="Center">
+            Students often (go)
+        </TextBlock>
+        <TextBlock Grid.Row="3" Grid.Column="3" FontSize="22" HorizontalAlignment="Left" VerticalAlignment="Center">
+            to the library.
+        </TextBlock>
+        <TextBlock Grid.Row="4" Grid.Column="1" FontSize="22" HorizontalAlignment="Right" VerticalAlignment="Center">
+            We never (miss)
+        </TextBlock>
+        <TextBlock Grid.Row="4" Grid.Column="3" FontSize="22" HorizontalAlignment="Left" VerticalAlignment="Center">
+            classes.
+        </TextBlock>
+        <TextBlock Grid.Row="5" Grid.Column="1" FontSize="22" HorizontalAlignment="Right" VerticalAlignment="Center">
+            She (not have)
+        </TextBlock>
+        <TextBlock Grid.Row="5" Grid.Column="3" FontSize="22" HorizontalAlignment="Left" VerticalAlignment="Center">
+            an umbrella.
+        </TextBlock>
+        <TextBlock Grid.Row="6" Grid.Column="1" FontSize="22" HorizontalAlignment="Right" VerticalAlignment="Center">
+            It sometimes (rain)
+        </TextBlock>
+        <TextBlock Grid.Row="6" Grid.Column="3" FontSize="22" HorizontalAlignment="Left" VerticalAlignment="Center">
+            here.
+        </TextBlock>
+
+        <ComboBox x:Name="cb1" Grid.Row="1" Grid.Column="2" SelectionChanged="Cb1_Selected"></ComboBox>
+        <ComboBox x:Name="cb2" Grid.Row="2" Grid.Column="2" SelectionChanged="Cb2_Selected"></ComboBox>
+        <ComboBox x:Name="cb3" Grid.Row="3" Grid.Column="2" SelectionChanged="Cb3_Selected"></ComboBox>
+        <ComboBox x:Name="cb4" Grid.Row="4" Grid.Column="2" SelectionChanged="Cb4_Selected"></ComboBox>
+        <ComboBox x:Name="cb5" Grid.Row="5" Grid.Column="2" SelectionChanged="Cb5_Selected"></ComboBox>
+        <ComboBox x:Name="cb6" Grid.Row="6" Grid.Column="2" SelectionChanged="Cb6_Selected"></ComboBox>
+    </Grid>
+</Page>
